@@ -5,7 +5,9 @@
 
 MiMo AI 免费聊天接口的 OpenAI 兼容本地代理服务器。
 
-将 [小米 MiMo](https://mimo.xiaomi.com) 的免费 AI 接口转换为标准 OpenAI API 格式。
+> **接口来源：[MiMoCode](https://mimo.xiaomi.com) 限免 API**
+
+将小米 MiMo 的免费 AI 接口转换为标准 OpenAI API 格式。
 
 > **⚠️ 仅支持 [Cherry Studio](https://cherry-ai.com) 桌面客户端或 CLI 命令行终端（如 curl）使用，不支持其他 AI 客户端。**
 
