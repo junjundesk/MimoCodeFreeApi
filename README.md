@@ -22,15 +22,15 @@ MiMo AI 免费聊天接口的 OpenAI 兼容本地代理服务器。
 
 ## 🚀 快速开始
 
-### 1. 安装依赖
+### 方式一：直接运行 exe（无需安装 Python）
+
+1. 从 [Releases](https://github.com/junjundesk/MimoCodeFreeApi/releases) 或仓库下载 `mimo_chat.exe`
+2. 双击运行
+
+### 方式二：Python 源码运行
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 2. 启动服务
-
-```bash
 python mimo_chat.py
 ```
 
@@ -116,7 +116,8 @@ PORT=8080 VERIFY_SSL=true python mimo_chat.py
 
 ```
 mimo-chat-proxy/
-├── mimo_chat.py        # 主程序
+├── mimo_chat.py        # 主程序（Python 源码）
+├── mimo_chat.exe       # Windows 编译版（双击即可运行）
 ├── requirements.txt    # Python 依赖
 ├── LICENSE             # MIT 开源协议
 ├── README.md           # 项目说明
