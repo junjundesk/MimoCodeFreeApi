@@ -91,7 +91,7 @@ curl http://localhost:3001/v1/models
 | `HOST` | `0.0.0.0` | 监听地址 |
 | `OPENAI_URL` | `https://api.xiaomimimo.com/api/free-ai/openai/chat` | 上游聊天接口 |
 | `BOOTSTRAP_URL` | `https://api.xiaomimimo.com/api/free-ai/bootstrap` | 上游认证接口 |
-| `VERIFY_SSL` | `true` | 是否验证上游 SSL 证书 |
+| `VERIFY_SSL` | `false` | 是否验证上游 SSL 证书（上游证书有问题，保持默认关闭） |
 | `LOG_REQUEST_BODY` | `false` | 是否打印请求体（调试用） |
 | `MAX_RETRIES` | `999` | 429 最大重试次数 |
 | `RETRY_DELAY` | `1` | 重试间隔（秒） |
@@ -142,7 +142,6 @@ mimo-chat-proxy/
 - 上游接口可能随时变更或关闭
 - **禁止**将此服务部署到公网或开放给他人使用
 - 不建议在公网环境暴露此服务
-- 生产环境请开启 `VERIFY_SSL`
 
 ## 📄 License
 

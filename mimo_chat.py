@@ -45,7 +45,7 @@ BOOTSTRAP_URL: str = os.getenv(
     "BOOTSTRAP_URL",
     "https://api.xiaomimimo.com/api/free-ai/bootstrap",
 )
-VERIFY_SSL: bool = os.getenv("VERIFY_SSL", "true").lower() == "true"
+VERIFY_SSL: bool = os.getenv("VERIFY_SSL", "false").lower() == "true"
 LOG_REQUEST_BODY: bool = os.getenv("LOG_REQUEST_BODY", "false").lower() == "true"
 MAX_RETRIES: int = int(os.getenv("MAX_RETRIES", "999"))
 RETRY_DELAY: float = float(os.getenv("RETRY_DELAY", "1"))
