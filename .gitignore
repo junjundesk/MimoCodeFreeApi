@@ -31,3 +31,7 @@ desktop.ini
 
 # Logs
 *.log
+
+# Nuitka build artifacts
+nuitka-crash-report.xml
+*.build/
