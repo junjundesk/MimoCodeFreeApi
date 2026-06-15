@@ -8,6 +8,10 @@ dist/
 build/
 *.egg
 
+# Build artifacts
+*.exe
+*.spec
+
 # Virtual environments
 venv/
 .venv/
@@ -31,7 +35,3 @@ desktop.ini
 
 # Logs
 *.log
-
-# Nuitka build artifacts
-nuitka-crash-report.xml
-*.build/
